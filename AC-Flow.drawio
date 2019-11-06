@@ -1,1 +1,94 @@
-<mxfile host="www.draw.io" modified="2019-11-04T06:43:09.952Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0" etag="vA1fgrqw6wZajgHAYp2H" version="12.1.9" type="github" pages="1"><diagram id="hOwv_71z-ZH2JiWc96Eu" name="Page-1">zZZNT+MwEIZ/TY6VEpum2SMU6KJdTj0AJ2TF08SSEwfX2aT8esbYbhK1iF0Jtj3ZfufD9jOjOBFdVv1Ks6a8VxxkRGLeR/Q6IiSJswwHq+ycksapEwotuHcahLV4hRDp1VZw2E4cjVLSiGYq5qquITcTjWmtOu/m022UnO7asAIOhHXO5KH6ILgpnZqRxaD/BFGUYeck/eEsFQvOfuttybjqRhK9iehSK2XcrOqXIC28wMXF3X5g3R9MQ23+JuBJCVg//cobTpl5/X13/3j1PPNZ/jDZ+gtHJJWY72qjMC2e2uw8ivSlVcEw274X6hIdkqzpByPOCjveMl2BDrnwUC6dM3oe+8xEq7bmYM8Zo7krhYF1w3Jr7bCtUCtNJXGV7KPH9w6XAG2gH0mewwpUBUbv0KUPTegifE8mc7/uhgonoWzlqLohjvmmKvaZB+448ej/oQzkoAwW4Mk5ZVNOZHHIKTuC6eK7MNEj3XpiRPOz66WL84dEyakhzc8PEo3PDdLic0j4qDV2uhV1IeHSPrhIgwuNb7FQtbWo1p7+PwBM4vn0c3UEIP2azxUuh4f73Tb6/aE3bw==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-06T06:49:10.526Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0" etag="mZvzJ3Xjniwg3KfhKcJE" version="12.2.0" type="github" pages="1">
+  <diagram id="hOwv_71z-ZH2JiWc96Eu" name="Page-1">
+    <mxGraphModel dx="1088" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-1" value="Farmer" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-5" value="Product" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="70" y="100" as="sourcePoint"/>
+            <mxPoint x="130" y="100" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-7" value="&lt;div&gt;Verifier&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="60" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-9" value="Blockchain" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="60" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-12" value="&lt;div&gt;Verified Data&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="160" y="100" as="sourcePoint"/>
+            <mxPoint x="260" y="100" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-13" value="Farm" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="75" y="80" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-14" value="KYC" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-15" value="Farmer" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="240" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-17" value="Product" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="70" y="280" as="sourcePoint"/>
+            <mxPoint x="140" y="280" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-18" value="FPO" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="240" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-19" value="Product" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="180" y="280" as="sourcePoint"/>
+            <mxPoint x="260" y="280" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-20" value="Marketplace" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="240" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-21" value="Consumer" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="240" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-23" value="Product" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="290" y="280" as="sourcePoint"/>
+            <mxPoint x="370" y="280" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-24" value="Farmer" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="380" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-27" value="Publish info" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="400" as="sourcePoint"/>
+            <mxPoint x="130" y="400" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-28" value="Verifier" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="380" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-31" value="Verified data" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="200" y="400" as="sourcePoint"/>
+            <mxPoint x="280" y="400" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-32" value="DLT" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="380" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-33" value="" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="350" y="400" as="sourcePoint"/>
+            <mxPoint x="430" y="400" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
