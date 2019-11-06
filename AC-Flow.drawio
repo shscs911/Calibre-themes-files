@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-06T07:13:14.007Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0" etag="DAbaZ91BUElwAKfIVEKf" version="12.2.0" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-06T07:22:32.767Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0" etag="V6DoNgn7RATFVHOH5hqb" version="12.2.0" type="github" pages="1">
   <diagram id="hOwv_71z-ZH2JiWc96Eu" name="Page-1">
     <mxGraphModel dx="1915" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,6 +89,28 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="210" y="560" as="sourcePoint"/>
             <mxPoint x="320" y="560" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-46" value="Flow of Goods" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry y="120" width="110" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-48" value="Publish item" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry y="320" width="110" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-50" value="Consumer Feedback" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry y="480" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-51" value="Purchase Item" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry y="680" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-52" value="Consumer" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="740" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-54" value="Select Item" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry x="0.0769" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="65" y="760" as="sourcePoint"/>
+            <mxPoint x="140" y="760" as="targetPoint"/>
+            <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
       </root>
