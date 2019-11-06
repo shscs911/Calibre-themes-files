@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-06T07:22:32.767Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0" etag="V6DoNgn7RATFVHOH5hqb" version="12.2.0" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-06T07:45:06.037Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0" etag="bzHph4ybn_7b3scay3m7" version="12.2.0" type="github" pages="1">
   <diagram id="hOwv_71z-ZH2JiWc96Eu" name="Page-1">
     <mxGraphModel dx="1915" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -111,6 +111,64 @@
             <mxPoint x="65" y="760" as="sourcePoint"/>
             <mxPoint x="140" y="760" as="targetPoint"/>
             <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-55" value="DLT" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="740" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-56" value="" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry x="0.0769" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="220" y="760" as="sourcePoint"/>
+            <mxPoint x="290" y="760" as="targetPoint"/>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-57" value="Store transaction" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="60" y="770" width="100" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-59" value="FPO" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="740" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-60" value="Order" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="730" width="50" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-61" value="" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="220" y="760" as="sourcePoint"/>
+            <mxPoint x="220" y="900" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-62" value="Pament" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="480" y="1000" as="sourcePoint"/>
+            <mxPoint x="20" y="1000" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-63" value="Farmer" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="860" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-64" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="760" as="sourcePoint"/>
+            <mxPoint x="480" y="760" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-65" value="" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="479.5" y="760" as="sourcePoint"/>
+            <mxPoint x="479.5" y="1000" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-66" value="Pament" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="220" y="900" as="sourcePoint"/>
+            <mxPoint x="300" y="900" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5uY13rDue1mxdyWcyZN-67" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="25" y="1000" as="sourcePoint"/>
+            <mxPoint x="25" y="840" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
       </root>
