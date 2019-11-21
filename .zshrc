@@ -42,7 +42,7 @@ export ZSH="/home/shscs911/.oh-my-zsh"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+#ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -68,9 +68,14 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(zsh-autosuggestions zsh-syntax-highlighting zsh-completions common-aliases z fzf)
+
+setopt dotglob
+
+plugins=(zsh-autosuggestions zsh-syntax-highlighting common-aliases z fzf zsh-completions)
 
 source $ZSH/oh-my-zsh.sh
+
+autoload -U compinit && compinit
 
 # User configuration
 
@@ -110,23 +115,31 @@ alias ls='lsd'
 alias cp='cp -Rvf --preserve=timestamps'
 alias fd='fd -a'
 alias yay='yay --aur'
-alias rsync='rsync -rht --info=progress2'
-alias ydl='youtube-dl'
-alias udl='sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl && sudo chmod a+rx /usr/local/bin/youtube-dl'
-alias gdl='gallery-dl'
-alias speed='speed-test'
+#alias rsync='rsync -rht --info=progress2'
 alias .mpv='mpv --msg-level=vd=debug'
-alias serve='npx serve -n -u --no-etag /home/shscs911/Q/'
 alias pvpn='sudo pvpn'
 alias fr='docker-compose -f /home/shscs911/Q/Dogma/Source/FR/docker-compose.yml up'
 alias up='sudo systemctl start docker && docker-compose up'
 alias down='docker-compose down && sudo systemctl stop docker'
 alias sd='sudo systemctl start docker'
-alias ld='lazydocker'
-alias mega='/home/shscs911/Q/Dogma/Source/Mega/MegaBasterdLinux_6.69.run'
 alias psmax='ps -eo pcpu,pid,user,args | sort -k 1 -r | head -10'
 alias .graph='git log --oneline --abbrev-commit --all --graph --decorate --color'
 alias glog="git log --color --all --date-order --decorate --dirstat=lines,cumulative --stat | sed 's/\([0-9] file[s]\? .*)$\)/\1\n_______\n-------/g' | \less -R"
+
+# Programs
+alias ydl='youtube-dl'
+alias gdl='gallery-dl'
+alias speed='speed-test'
+alias serve='npx serve -n -u --no-etag /home/shscs911/Q/'
+alias ld='lazydocker'
+alias mega='/home/shscs911/Q/Bravo/Custom/Programs/Megabasterd.run'
+
+# Update
+alias udl='sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl && sudo chmod a+rx /usr/local/bin/youtube-dl'
+alias umega='wget -O /home/shscs911/Q/Bravo/Custom/Programs/Megabasterd.run `/home/shscs911/Q/Bravo/Custom/Scripts/ghi search --repository tonikelope/megabasterd run` && chmod +x /home/shscs911/Q/Bravo/Custom/Programs/Megabasterd.run'
+alias umfox='git -C /home/shscs911/Q/Dogma/Source/MaterialFox pull && rm -rvf ~/.mozilla/firefox/xgo1bwpy.dev-edition-default/chrome && cp /home/shscs911/Q/Dogma/Source/MaterialFox/chrome ~/.mozilla/firefox/xgo1bwpy.dev-edition-default'
+alias ufoliate='git -C /home/shscs911/Q/Dogma/Source/foliate/ pull && ninja -C /home/shscs911/Q/Dogma/Source/foliate/build/ && sudo ninja -C /home/shscs911/Q/Dogma/Source/foliate/build/ install'
+alias upamac='git -C /home/shscs911/Q/Dogma/Source/pamac/ pull && ninja -C /home/shscs911/Q/Dogma/Source/pamac/builddir/ && sudo ninja -C /home/shscs911/Q/Dogma/Source/pamac/builddir/ install'
 
 ###-begin-npm-completion-###
 #
@@ -227,7 +240,10 @@ export DOWNGRADE_FROM_ALA=1
 export TERM=xterm-256color
 export MICRO_TRUECOLOR=1
 export ANDROID_EMULATOR_USE_SYSTEM_LIBS=1
+export LANG=en_US.UTF-8
+export LC_MESSAGES="C"
 #export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -Dswing.crossplatformlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
+export PATH=/home/shscs911/.gem/ruby/2.6.0/bin:$PATH
 
 ##  fzf
 # export FZF_CTRL_T_COMMAND="find -not -path '*/\.git/*' -not -path '*/\node_modules/*'"
@@ -264,4 +280,5 @@ transfer() {
     rm -f $tmpfile
 }
 
-source /home/shscs911/.config/broot/launcher/bash/br
+#bindkey '^[[A' history-substring-search-up
+#bindkey '^[[B' history-substring-search-down
