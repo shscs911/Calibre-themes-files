@@ -1,0 +1,374 @@
+{
+
+    "extractor":
+
+    {
+
+        "base-directory": "/home/shscs911/Q/Bravo/CG/HH/",
+
+        "postprocessors": null,
+
+        "archive": null,
+
+        "cookies": null,
+
+        "proxy": null,
+
+        "skip": true,
+
+        "sleep": 0,
+
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0",
+
+        "restrict-filenames": "auto",
+
+
+
+        "artstation":
+
+        {
+
+            "external": false
+
+        },
+
+        "danbooru":
+
+        {
+
+            "username": null,
+
+            "password": null
+
+        },
+
+        "deviantart":
+
+        {
+
+            "refresh-token": null,
+
+            "extra": false,
+
+            "flat": true,
+
+            "folders": false,
+
+            "journals": "html",
+
+            "mature": true,
+
+            "metadata": false,
+
+            "original": true,
+
+            "wait-min": 0
+
+        },
+
+        "exhentai":
+
+        {
+
+            "username": null,
+
+            "password": null,
+
+            "original": true,
+
+            "wait-min": 3.0,
+
+            "wait-max": 6.0
+
+        },
+
+        "flickr":
+
+        {
+
+            "access-token": null,
+
+            "access-token-secret": null,
+
+            "videos": true,
+
+            "size-max": null
+
+        },
+
+        "gelbooru":
+
+        {
+
+            "api": true
+
+        },
+
+        "gfycat":
+
+        {
+
+            "format": "mp4"
+
+        },
+
+        "idolcomplex":
+
+        {
+
+            "username": null,
+
+            "password": null,
+
+            "wait-min": 3.0,
+
+            "wait-max": 6.0
+
+        },
+
+        "imgur":
+
+        {
+
+            "mp4": true
+
+        },
+
+        "kissmanga":
+
+        {
+
+            "captcha": "stop"
+
+        },
+
+        "nijie":
+
+        {
+
+            "username": null,
+
+            "password": null
+
+        },
+
+        "oauth":
+
+        {
+
+            "browser": true
+
+        },
+
+        "pixiv":
+
+        {
+
+            "username": null,
+
+            "password": null,
+
+            "ugoira": true
+
+        },
+
+        "reactor":
+
+        {
+
+            "wait-min": 3.0,
+
+            "wait-max": 6.0
+
+        },
+
+        "readcomiconline":
+
+        {
+
+            "captcha": "stop"
+
+        },
+
+        "recursive":
+
+        {
+
+            "blacklist": ["directlink", "oauth", "recursive", "test"]
+
+        },
+
+        "reddit":
+
+        {
+
+            "refresh-token": null,
+
+            "comments": 500,
+
+            "morecomments": false,
+
+            "date-min": 0,
+
+            "date-max": 253402210800,
+
+            "date-format": "%Y-%m-%dT%H:%M:%S",
+
+            "id-min": "0",
+
+            "id-max": "zik0zj",
+
+            "recursion": 0,
+
+            "user-agent": "Python:gallery-dl:0.8.4 (by /u/mikf1)"
+
+        },
+
+        "sankaku":
+
+        {
+
+            "username": null,
+
+            "password": null,
+
+            "wait-min": 3.0,
+
+            "wait-max": 6.0
+
+        },
+
+        "seiga":
+
+        {
+
+            "username": null,
+
+            "password": null
+
+        },
+
+        "tumblr":
+
+        {
+
+            "avatar": false,
+
+            "external": false,
+
+            "inline": true,
+
+            "posts": "all",
+
+            "reblogs": true
+
+        },
+
+        "twitter":
+
+        {
+
+            "content": false,
+
+            "retweets": true,
+
+            "videos": false
+
+        },
+
+        "wallhaven":
+
+        {
+
+            "api-key": null
+
+        },
+
+        "booru":
+
+        {
+
+            "tags": false
+
+        }
+
+    },
+
+
+
+    "downloader":
+
+    {
+
+        "part": true,
+
+        "part-directory": null,
+
+
+
+        "http":
+
+        {
+
+            "mtime": true,
+
+            "rate": null,
+
+            "retries": 4,
+
+            "timeout": 30.0,
+
+            "verify": true
+
+        },
+
+
+
+        "ytdl":
+
+        {
+
+            "format": null,
+
+            "forward-cookies": true,
+
+            "mtime": true,
+
+            "rate": null,
+
+            "retries": 4,
+
+            "timeout": 30.0,
+
+            "verify": true
+
+        }
+
+    },
+
+
+
+    "output":
+
+    {
+
+        "mode": "auto",
+
+        "progress": true,
+
+        "shorten": true,
+
+        "log": "[{name}][{levelname}] {message}",
+
+        "logfile": null,
+
+        "unsupportedfile": null
+
+    },
+
+
+
+    "netrc": false
+
+}
+

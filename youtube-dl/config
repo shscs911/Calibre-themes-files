@@ -1,0 +1,18 @@
+
+#Directory
+-i
+-o '/home/shscs911/Q/Delta/%(title)s.%(ext)s'
+--external-downloader aria2c
+--external-downloader-args "-c -j 8 -x 8 -s 8 -k 1M"
+
+# Uniform Format
+--prefer-ffmpeg
+--merge-output-format mkv
+
+# Get metadata
+--add-metadata
+
+#Subtitle
+--write-sub
+--sub-lang en
+--convert-subs srt

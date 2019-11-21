@@ -1,0 +1,20 @@
+[options]
+disable-backends=archive,archive_cbx,libav,poppler
+hide-info-box=true
+browse=true
+max-depth=0
+sort=1
+sort-key=mtime
+window-title=$BASEFILENAME
+end-of-files-action=wrap
+
+[keybindings]
+<Right>      { goto_file_relative(-1) }
+<Left>       { goto_file_relative(+1) }
+<Up>		 { set_scale_level_relative(1.1) }
+<Down>		 { set_scale_level_relative(0.9) }
+<KP_6>       { shift_x(-10) }
+<KP_4>		 { shift_x(10)  } 
+<KP_8>		 { shift_y(10)  } 
+<KP_2>		 { shift_y(-10) } 
+<KP_5>       { toggle_scale_mode(0) }
